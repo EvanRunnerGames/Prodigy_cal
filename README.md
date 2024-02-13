@@ -1,6 +1,12 @@
-Free and Open Source Calculator
-Introduction
-Welcome to our project! This is not your ordinary calculator. Designed to make math homework easier, this tool is perfect for when you have certain measurements (like area, radius, diameter, or circumference) and need to find the unknowns. Simply input what you have, and let the calculator find what you're missing.
+Reason to use cmd_Calculator:
+#Its a light weight solution it is running in the command line
+#but eitherwase calculators are light weight
+#but this calculator will take little to no memory its like how opra gx takes less than google well this does to
+#
+#and here are some more reasons
+#Free and Open Source Calculator
+#Introduction
+#Welcome to our project! This is not your ordinary calculator. Designed to make math homework easier, this tool is perfect for when you have certain #measurements (like area, radius, diameter, or circumference) and need to find the unknowns. Simply input what you have, and let the calculator find what ?#you're missing.
 
 Features
 Ease of Use: Just input the measurements you have, and the calculator does the rest.
