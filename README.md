@@ -13,6 +13,12 @@ Enter the numerical value of your input.
 The calculator will compute and provide the unknown measurements.
 We also have other calculator options such as Normal Calculator and "Algebra that does Algebra that finds x or any other unknow value" - THE TEXT IN QUOTES IS COMING SOON
 
+Versions:
+There is a web version that has all the same features but the web version only works while connected to the internet so if you want to use if OFFLINE you cant so for that you will Have to dowload the main.exe file and follow the instalation process
+
+WEB VERSION:
+https://evanrunnergames.github.io/cmd_Calculator/
+
 Installation:
 Just dowload the main.exe file and double click it then your in the calculator it will open in a terminal/command line window
 
