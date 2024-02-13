@@ -7,10 +7,63 @@
   <script type="module" src="https://pyscript.net/releases/2024.1.1/core.js"></script>
 </head>
 <body>
+  
+    <label for="measurementType">Choose a measurement:</label>
+    <select id="measurementType">
+        <option value="radius">Radius</option>
+        <option value="diameter">Diameter</option>
+        <option value="circumference">Circumference</option>
+        <option value="area">Area</option>
+    </select>
 
-<py-script>
-  print("Hi")
-</py-script>
+    <label for="valueInput">Value:</label>
+    <input type="number" id="valueInput" value="">
+
+    <button onclick="calculate()">Calculate</button>
+
+    <div id="results"></div>
+
+    <py-script>
+        import math
+        from pyodide import create_proxy
+
+        def calculate():
+            measurementType = Element('measurementType').element.value
+            value = float(Element('valueInput').element.value)
+            results = ""
+
+            if measurementType == "radius":
+                radius = value
+                diameter = radius * 2
+                circumference = 2 * math.pi * radius
+                area = math.pi * radius ** 2
+                results = f"Radius: {radius}, Diameter: {diameter}, Circumference: {circumference}, Area: {area}"
+            
+            elif measurementType == "diameter":
+                diameter = value
+                radius = diameter / 2
+                circumference = math.pi * diameter
+                area = math.pi * radius ** 2
+                results = f"Radius: {radius}, Diameter: {diameter}, Circumference: {circumference}, Area: {area}"
+
+            elif measurementType == "circumference":
+                circumference = value
+                radius = circumference / (2 * math.pi)
+                diameter = 2 * radius
+                area = math.pi * radius ** 2
+                results = f"Radius: {radius}, Diameter: {diameter}, Circumference: {circumference}, Area: {area}"
+
+            elif measurementType == "area":
+                area = value
+                radius = math.sqrt(area / math.pi)
+                diameter = 2 * radius
+                circumference = 2 * math.pi * radius
+                results = f"Radius: {radius}, Diameter: {diameter}, Circumference: {circumference}, Area: {area}"
+
+            Element('results').element.innerHTML = results
+
+        window.calculate = create_proxy(calculate)
+    </py-script>
 
 </body>
 </html>
