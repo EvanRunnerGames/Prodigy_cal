@@ -21,6 +21,9 @@ Enter the numerical value of your input.
 The calculator will compute and provide the unknown measurements.
 We also have other calculator options such as Normal Calculator and "Algebra that does Algebra that finds x or any other unknow value" - THE TEXT IN QUOTES IS COMING SOON
 
+Itch.Io Link:
+https://evanrunner.itch.io/cmd-calculator
+
 Installation:
 Just dowload the main.exe file and double click it then your in the calculator it will open in a terminal/command line window
 
