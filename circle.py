@@ -2,7 +2,10 @@ import colorama
 from colorama import Fore, Back, Style
 import math
 
-while True:
+def error404notfound():
+    print(Fore.RED + Back.BLACK + "ERROR 404: NOT FOUND")
+
+def circlemath():
     _1to4 = input(Fore.BLUE + Back.WHITE + "What do you already have Radius:Diameter:Circumfrance:Area; ")
     #Radius Math
     if _1to4.lower() == "radius" or _1to4.lower() == "r":
@@ -45,6 +48,17 @@ while True:
 
     #error 404 NOT FOUND
     else:
-        print(Fore.RED + "ERROR 404: NOT FOUND")
+        error404notfound()
     
     #end
+
+def normalcalculator():
+    userproblem = input(Fore.CYAN + Back.BLACK + "What is the math equation: " + Fore.GREEN + Back.WHITE + Fore.RED + Back.BLACK)
+    print(eval(userproblem))
+
+while True:
+    mathtype = input(Fore.BLACK + Back.WHITE + "What type of math are you trying to do\n1.Normal Calculator\n2.Geomotry\n type 2.1 for Circle Calculation\n")
+    if mathtype == "1":
+        normalcalculator()
+    elif mathtype == "2.1":
+        circlemath()
