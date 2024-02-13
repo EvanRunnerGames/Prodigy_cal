@@ -18,3 +18,5 @@ Just dowload the main.exe file and double click it then your in the calculator i
 
 ?If it did not let you dowload then go to dowloads ----> 3 DOTS -----> KEEP -----> SHOW MORE -------> KEEP ANYWAY
 ?The reason your computer thinks this file might be unsafe is because it is written in python and you computer says wait this file is not commonly dowloaded, #the reason for this is because this is a small project and not really anybody has dowloaded it so it is not really know
+
+![Alt text](OIP.jpg)
