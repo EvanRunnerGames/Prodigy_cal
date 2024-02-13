@@ -20,3 +20,13 @@ Just dowload the main.exe file and double click it then your in the calculator i
 ?The reason your computer thinks this file might be unsafe is because it is written in python and you computer says wait this file is not commonly dowloaded, #the reason for this is because this is a small project and not really anybody has dowloaded it so it is not really know
 
 ![Alt text](cmdCalculatorLogo.png)
+
+![Alt text](1.png)
+![Alt text](2.png)
+![Alt text](3.png)
+![Alt text](4.png)
+![Alt text](5.png)
+![Alt text](6.png)
+![Alt text](7.png)
+![Alt text](8.png)
+![Alt text](9.png)
