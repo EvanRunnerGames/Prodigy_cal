@@ -21,7 +21,7 @@ Just dowload the main.exe file and double click it then your in the calculator i
 
 ![Alt text](cmdCalculatorLogo.png)
 
-![Alt text](1.png)
+![Alt text](HowToInstall/1.png)
 ![Alt text](2.png)
 ![Alt text](3.png)
 ![Alt text](4.png)
