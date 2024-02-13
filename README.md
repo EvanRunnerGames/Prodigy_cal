@@ -1,4 +1,4 @@
-Reason to use cmd_Calculator:
+Reasons to use cmd_Calculator:
 #Its a light weight solution it is running in the command line
 #but eitherwase calculators are light weight
 #but this calculator will take little to no memory its like how opra gx takes less than google well this does to
@@ -7,6 +7,8 @@ Reason to use cmd_Calculator:
 #Free and Open Source Calculator
 #Introduction
 #Welcome to our project! This is not your ordinary calculator. Designed to make math homework easier, this tool is perfect for when you have certain #measurements (like area, radius, diameter, or circumference) and need to find the unknowns. Simply input what you have, and let the calculator find what ?#you're missing.
+
+#and if you do contribute thanks I only have a hour during the week to work on it and all day on weekends so during the week I dont get much time because I #have to study for my test
 
 Features
 Ease of Use: Just input the measurements you have, and the calculator does the rest.
