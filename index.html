@@ -13,77 +13,12 @@
 
 
 <py-script>
-  import math
-
-
-  def error404notfound():
-    print("ERROR 404: NOT FOUND")
-
-
-  def circlemath():
-    _1to4 = input("What do you already have Radius:Diameter:Circumfrance:Area; ")
-    #Radius Math
-    if _1to4.lower() == "radius" or _1to4.lower() == "r":
-      radius = input("What is the Radius: ")
-      print("Radius: " + str(radius))
-      diameter = int(radius) * 2
-      print("Diameter: " + str(diameter))
-      print("Circumference: " + str((float(radius) * 2) * math.pi))
-      print("Area: " + str(math.pi * float(radius) * float(radius)))
-    #Diameter Math
-    if _1to4.lower() == "diameter" or _1to4.lower() == "d":
-      diameter = input("What is the Diameter: ")
-      print("Radius: " + str(int(float(diameter) / 2)))
-      print(+ "Diameter: " + str(diameter))
-      print("Circumference: " + str((math.pi * float(diameter))))
-      radius = float(((float(diameter)) / 2))
-      print("Area: " + str(math.pi * radius * radius))
-
-    #Circumfrance Math
-
-    if _1to4.lower() == "circumfrance" or _1to4.lower() == "c":
-      circumfrance = float(input("What is the Circumfrance: "))
-      diameter = circumfrance / math.pi
-      radius = diameter / 2
-      print("Radius: " + str(radius))
-      print("Diameter: " + str(diameter))
-      print("Circumference: " + str(circumfrance))
-      print("Area: " + str(math.pi * float(radius) * float(radius)))
-
-    #Area Math
-
-    if _1to4.lower() == "area" or _1to4.lower() == "a":
-      area = float(input("What is the Area: "))
-      radius = math.sqrt(area / math.pi)
-      diameter = radius + radius
-      print("Radius: " + str(radius))
-      print("Diameter: " + str(diameter))
-      print("Circumference: " + str(math.pi * float(diameter)))
-      print("Area: " + str(area))
-
-    #error 404 NOT FOUND
-    else:
-      error404notfound()
-
-    #end
-
-
-  def normalcalculator():
-    userproblem = input("What is the math equation: ")
-    print(eval(userproblem))
-
-
-  while True:
-    mathtype = input("What type of math are you trying to do\n1.Normal Calculator\n2.Geomotry\n type 2.1 for Circle Calculation\n"
-    )
-    if mathtype == "1":
-      normalcalculator()
-    elif mathtype == "2.1":
-      circlemath()
+  input("Hi whats your name:")
 
 
   
 </py-script>
+
   
 
 </body>
