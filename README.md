@@ -15,3 +15,4 @@ We also have other calculator options such as Normal Calculator and "Algebra tha
 
 Installation:
 Just dowload the main.exe file and double click it then your in the calculator it will open in a terminal/command line window
+If it did not let you dowload then go to dowloads ----> KEEP ----> MORE -----> KEEP FILE
