@@ -7,6 +7,7 @@ import os
 import time
 
 def clear_console():
+    time.sleep(0.1)
     os.system('cls') 
 
 def keyclear():
@@ -90,13 +91,49 @@ def normalcalculator():
     except:
         print(Fore.RED + "You can not type characters/letters if this is not what happended email me at\n" + Fore.LIGHTYELLOW_EX +"evanrunnercontact@gmail.com" + Fore.GREEN)
 
+def secretcode():
+    try:
+        userproblem = input(Fore.CYAN + Back.BLACK + "What is the math equation: " + Back.BLACK + Fore.BLUE)
+        print()
+        print("You can type cls to clear this window")
+    except:
+        print(Fore.RED + "We have run into an error this is expected as secretcode is just a fun joke")
+
 
 
 
 clear_console()
+
+
+#editable varibles
+var1 = 0
+var2 = 0
+var3 = 0
+var4 = 0
+var5 = 0
+var6 = 0
+var7 = 0
+var8 = 0
+var9 = 0
+var10 = 0
+
+#editable list
+_list1 = []
+_list2 = []
+_list3 = []
+_list4 = []
+_list5 = []
+_list6 = []
+_list7 = []
+_list8 = []
+_list9 = []
+_list10 = []
+
+
+
 while True:
     #Normal Calculator
-    mathtype = input(Fore.BLACK + Back.BLACK + "What type of math are you trying to do\nType help for all the different calculators\n" + Fore.GREEN + Back.BLACK + "We support Algabra | Geomotry | Normal Calculator\n" + Fore.RED + "THESE ARE NOT COMMANDS DO HELP FOR CALCULATOR COMMANDS\n" + Fore.CYAN)
+    mathtype = input(Fore.WHITE + Back.BLACK + "What type of math are you trying to do\nType help for all the different calculators\n" + Fore.GREEN + Back.BLACK + "We support Algabra | Geomotry | Normal Calculator\n" + Fore.RED + "THESE ARE NOT COMMANDS DO HELP FOR CALCULATOR COMMANDS\n" + Fore.CYAN)
     
         #\\\\\\\\\\\\\\\\\\\Commands/////////////////
     
@@ -113,6 +150,10 @@ while True:
 
     if mathtype.lower() == "cls":
         clear_console()
+
+    if mathtype.lower == "secretcode":
+        secretcode()
+
     
     if mathtype == "1":
         normalcalculator()
